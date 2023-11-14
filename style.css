@@ -11,6 +11,7 @@ body {
     min-width:100%;
     display:inline-block;
    overflow-x:auto;
+
     background-color: rgba(0, 0, 0, 0.9); /* Dark semi-transparent background */
     padding: 300px auto; /* Increase the padding for a larger header */
 }
@@ -44,7 +45,11 @@ body {
 }
 
 .label {
-    color: navy;
+    color: black;
+    background-color: #999;
+    position:fixed;
+    bottom:0;
+    height:10vh;
 }
 
 /* Improve the marquee styling */

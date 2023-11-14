@@ -1,0 +1,5 @@
+remove:
+ 
+    -all inline styling
+    -the font tags
+    -the heights and widths

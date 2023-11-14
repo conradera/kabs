@@ -54,7 +54,7 @@ body {
 
 .label,label {
     color: black;
-    opacity:0.5;
+    opacity:0.3;
     background-color: #999;
     position:fixed;
     bottom:0;
@@ -64,7 +64,7 @@ body {
 /* Improve the marquee styling */
 label marquee p {
     margin: 0;
-    font-size: 14px;
+    font-size: 3vw;
 }
 label{
     width:100%;
@@ -76,6 +76,18 @@ label{
     color:rgb(177, 159, 126);
     text-align: justify;
 }
+.images {
+    overflow: auto; /* Makes the div scrollable sideways */
+    white-space: nowrap; /* Prevents images from wrapping to the next line */
+    height: 70vh; /* Sets the height of the div to 100% of the viewport height */
+  }
+  
+  .images img {
+    display: inline-block; /* Makes images display as inline blocks */
+    height: 100%; /* Sets the height of images to 100% of the div height */
+    object-fit: cover; /* Ensures the images fill the entire div height without distortion */
+  }
+  
 /*
 images{
     height:70%;

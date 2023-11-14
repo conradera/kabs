@@ -92,7 +92,9 @@ label{
     height: 100%; /* Sets the height of images to 100% of the div height */
     object-fit: cover; /* Ensures the images fill the entire div height without distortion */
   }
-  
+  p{
+    color:white;
+  }
 /*
 images{
     height:70%;

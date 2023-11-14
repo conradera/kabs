@@ -11,7 +11,7 @@ body {
     width:100%;
     min-width:100%;
     display:flex;
-   overflow-x:auto;
+   
 
     background-color: rgba(0, 0, 0, 0.9); /* Dark semi-transparent background */
     padding: 300px auto; /* Increase the padding for a larger header */
@@ -75,7 +75,7 @@ center{
     align-items:left;
     height:70%;
     width:auto;
-    overflow-x:scroll;
+    
     scroll-padding: 0;
     padding:0;
 }

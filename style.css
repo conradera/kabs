@@ -2,33 +2,43 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Agbalumo', sans-serif; /* Apply the custom font */
+    background-color: bisque;
 }
 
 .header {
     text-align: right;
+    width:100%;
+    min-width:100%;
+    display:inline-block;
+   overflow-x:auto;
     background-color: rgba(0, 0, 0, 0.9); /* Dark semi-transparent background */
-    padding: 30px; /* Increase the padding for a larger header */
+    padding: 300px auto; /* Increase the padding for a larger header */
 }
 
 .header a {
+    border-radius:5px;
+    padding:2px;
+    
+    border-left: 2px solid gray;
     text-decoration: none;
-    color: #00FF00;
+    color: white;
     font-size: 18px; /* Increase font size for better visibility */
     font-weight: bold;
-    margin-left: 30px; /* Increase margin for better spacing between links */
+    margin-left:auto; /* Increase margin for better spacing between links */
     transition: color 0.3s ease; /* Smooth color transition */
 }
 
 .header a:hover {
-    color: #FFFFFF; /* Change color on hover */
+    color: #00ff00; /* Change color on hover */
 }
 
 .h1 {
-    color: #FFFFFF;
+    color: brown;
+    background-color: dark;
 }
 
 .paragraph_1 {
-    color: #FFFFFF;
+    color: black;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -47,4 +57,5 @@ label marquee p {
 .content-container {
     max-width: 800px;
     margin: 0 auto;
+    color:green;
 }

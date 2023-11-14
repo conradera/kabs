@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    height:10vh;
+    height:7vh;
     text-align: right;
     width:100%;
     min-width:100%;
@@ -76,7 +76,9 @@ label{
     color:rgb(177, 159, 126);
     text-align: justify;
 }
+/*
 images{
+    height:70%;
     align-items:left;
     height:70%;
     border:0;
@@ -88,4 +90,4 @@ images{
 img{
     height:100%;
     width:auto;
-}
+}*/
